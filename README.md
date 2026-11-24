@@ -31,6 +31,36 @@ El flujo principal busca cubrir:
 
 ---
 
+## 🌊 Avance EV3 — 24/11/2026
+
+Durante la preparación de la tercera etapa se realizó una nueva pasada de producto orientada a mejorar la presentación frente al contexto AquaChile y fortalecer la experiencia de uso.
+
+### Mejoras realizadas
+
+- Rediseño visual con identidad **Ocean Glass**, utilizando tonos azul profundo, petróleo, cian y turquesa.
+- Remodelación del login y pantallas principales para una experiencia más coherente y profesional.
+- Dashboard con métricas y visualización gráfica de resultados.
+- Datos ficticios de demostración precargados para evitar pantallas vacías durante la presentación.
+- Fecha y hora generadas automáticamente para mejorar trazabilidad y evitar edición manual.
+- Checklist optimizado con `LazyColumn`, iconografía y mejor jerarquía visual.
+- Indicador de progreso con porcentaje y estado visual.
+- Resumen del registro reorganizado en tarjetas y secciones más claras.
+- Generación y uso compartido de un resumen PDF mediante `PdfDocument` y `FileProvider`.
+- Mejoras de interacción en formularios, incluyendo cierre del teclado al perder foco.
+- Revisión de selectores de centro, buzo y estados para mejorar la interacción táctil.
+- Ajustes de Gradle orientados a una ejecución más estable durante la demostración.
+
+### Trabajo técnico en curso
+
+- Integración de conectividad y sincronización para la etapa final.
+- Ampliación de pruebas unitarias y de interfaz.
+- Preparación de APK release firmada.
+- Preparación de la defensa técnica, documentación y evidencia de GitHub.
+
+> Este commit registra un **avance intermedio** de EV3 y no representa todavía la entrega final.
+
+---
+
 ## 📱 Funcionalidades implementadas
 
 ### Inicio de sesión
@@ -327,6 +357,6 @@ Actualmente están implementados:
 
 ## 📌 Estado del proyecto
 
-**Evaluación Parcial 2 — avance funcional hasta contenidos clase 11.**
+**EV3 en desarrollo — avance funcional y visual registrado al 24/11/2026.**
 
 Proyecto académico en desarrollo.
